@@ -34,6 +34,8 @@ type Contract struct {
   Rate int
 }
 
+
+
 func main() {
   fmt.Println("It's running at least")
   testImage := ImageMetaData{"testUrl", "testRep", "testImageName", "testImageTag"}
